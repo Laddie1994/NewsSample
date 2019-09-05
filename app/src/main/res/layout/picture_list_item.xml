@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_card"
+    android:descendantFocusability="blocksDescendants">
+
+    <com.gc.materialdesign.views.LayoutRipple
+        android:id="@+id/itemLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:rippleSpeed="60">
+
+        <com.github.library.PinterestLikeAdapterView.PLAImageView
+            android:id="@+id/pictureImageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#A0FFFCFC"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/pictureTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pictureImageView"
+            android:ellipsize="end"
+            android:maxLines="4"
+            android:padding="8dp"
+            android:textColor="@color/secondaryColor"
+            android:textSize="@dimen/text_size_16"/>
+
+    </com.gc.materialdesign.views.LayoutRipple>
+</FrameLayout>

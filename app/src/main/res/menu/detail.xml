@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/menu_font_size"
+          android:title="字体大小"
+          android:icon="@mipmap/ic_action_textsize"
+          android:orderInCategory="80"
+          app:showAsAction="ifRoom"/>
+    <item android:id="@+id/menu_share"
+          android:title="分享"
+          android:icon="@mipmap/ic_down_share"
+          android:orderInCategory="80"
+          app:showAsAction="ifRoom"/>
+</menu>

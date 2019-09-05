@@ -1,0 +1,191 @@
+{
+    "code": "0000",
+    "msg": "访问成功",
+    "data": {
+        "result": [
+            {
+                "id": "2",
+                "title": "新鲜事2",
+                "content": "<div id='article-main'><div class='article-content'><p>外媒称，文在寅在9日举行的韩国总统大选中获胜。他的当选有可能令韩美在朝鲜问题上发生分歧。</p><p>据韩联社5月9日报道，美国白宫发言人斯派塞9日表示，特朗普总统期待与韩国当选总统文在寅对话，就双方共同关心的问题交换意见。</p><p>斯派塞还发表声明祝贺文在寅当选，并表示期待韩美两国持续开展合作，加强同盟关系。</p><p>据《今日美国报》网站5月9日报道，文在寅质疑严厉制裁朝鲜的有效性，在加强与这个封闭国家的外交和经济关系方面，他主张让大门敞开着。</p><p>文在寅3月说：“我们无法否认朝鲜的统治者是金正恩。我们别无选择只能承认金正恩是对家，不管我们对朝鲜施加压力和制裁还是进行对话。”</p><p>他力图在处理朝鲜问题时重新定位韩国。文在寅在竞选时说：“我们必须在解决朝鲜半岛问题时起主导作用。我们的盟友和邻国，包括美国，应当扮演一个支持我们领导地位的角色。”</p><p>另据日本《东京新闻》5月10日报道，文在寅公开声称愿与推进核导开发的朝鲜开展对话和重启经济合作事业。在国际社会加大对朝鲜施压的背景下，韩国诞生了有和解姿态的政府，这对朝鲜来说是打开局面的契机。外交相关人士担心地说：“日美韩的合作出现裂痕，朝鲜弃核之路恐越来越远。”</p><p>文在寅曾在亲朝鲜的卢武铉政府中担任要职，在2007年10月南北首脑会谈中担任推进委员长。他公开声称将重启去年2月中断的南北交流事业开城工业园区。</p><p>报道称，美国特朗普政府通过强化经济制裁和外交手段向朝鲜施压，谋求让朝鲜放弃核与弹道导弹。如果韩国新政府重启作为朝鲜摇钱树的开城工业园区等南北经济合作，经济制裁就将出现漏洞。对于朝鲜来说，将会出现突破国际包围圈的环境。</p><p>日媒称，文在寅确认当选韩国总统可能导致中国对朝鲜的核与导弹开发所采取的姿态发生变化。文在寅希望回归对朝鲜协调的政策，这与不愿把朝鲜逼到绝境的中国的立场接近。可以预想，中国与希望加强对朝鲜施压的美国之间将出现拉锯战。</p><p>报道称，中国长期以来一直主张通过谈判解决核问题。如果朝鲜发生不测事态，则可能出现难民大批涌入中国的情况，中国对出现混乱局面深感不安。</p><p>报道称，文在寅一直在阐述重启南北对话和改善两国关系的必要性。对于中国而言，韩国新政府可以发挥阻止美国采取强硬方针的作用。</p><img src='http://p1.pstatp.com/large/1e260009c1babdb38b2a'img_width='500'img_height='337'alt='外媒：文在寅主张朝韩敞开大门 美日忧对朝制裁出“漏洞”'inline='0'><p>韩国新总统文在寅与夫人金贞淑10日在就职仪式上向国旗致敬(路透社)</p></div></div>",
+                "dianzan_count": {
+                    "dianzan_count": 0,
+                    "touxiang_list": []
+                },
+                "pinglun_count": 1,
+                "dashang_count": 0,
+                "releaser_id": null,
+                "releaser_name": null,
+                "releaser_touxiang": null,
+                "shoucang_Tag": 0,
+                "dianzan_hongbao": {
+                    "count": 0,
+                    "price": 0,
+                    "hongbao_Tag": 0
+                },
+                "fenxiang_hongbao": {
+                    "count": 0,
+                    "price": 0,
+                    "hongbao_Tag": 0
+                },
+                "yuedu_count": 0,
+                "time": 1494576245000,
+                "pinglun": [
+                    {
+                        "pingluner_id": "2",
+                        "pingluner_name": "用户2",
+                        "pingluner_touxiang": "头像图片1",
+                        "content": "2",
+                        "time": 1494398996000,
+                        "dianzan_count": {
+                            "dianzan_count": 0,
+                            "touxiang_list": []
+                        }
+                    },
+                    {
+                        "pingluner_id": "2",
+                        "pingluner_name": "用户2",
+                        "pingluner_touxiang": "头像图片1",
+                        "content": "2",
+                        "time": 1494398996000,
+                        "dianzan_count": {
+                            "dianzan_count": 0,
+                            "touxiang_list": []
+                        }
+                    },
+                    {
+                        "pingluner_id": "2",
+                        "pingluner_name": "用户2",
+                        "pingluner_touxiang": "头像图片1",
+                        "content": "2",
+                        "time": 1494398996000,
+                        "dianzan_count": {
+                            "dianzan_count": 0,
+                            "touxiang_list": []
+                        }
+                    },
+                    {
+                        "pingluner_id": "2",
+                        "pingluner_name": "用户2",
+                        "pingluner_touxiang": "头像图片1",
+                        "content": "2",
+                        "time": 1494398996000,
+                        "dianzan_count": {
+                            "dianzan_count": 0,
+                            "touxiang_list": []
+                        }
+                    },
+                    {
+                        "pingluner_id": "2",
+                        "pingluner_name": "用户2",
+                        "pingluner_touxiang": "头像图片1",
+                        "content": "2",
+                        "time": 1494398996000,
+                        "dianzan_count": {
+                            "dianzan_count": 0,
+                            "touxiang_list": []
+                        }
+                    },
+                    {
+                        "pingluner_id": "2",
+                        "pingluner_name": "用户2",
+                        "pingluner_touxiang": "头像图片1",
+                        "content": "2",
+                        "time": 1494398996000,
+                        "dianzan_count": {
+                            "dianzan_count": 0,
+                            "touxiang_list": []
+                        }
+                    },
+                    {
+                        "pingluner_id": "2",
+                        "pingluner_name": "用户2",
+                        "pingluner_touxiang": "头像图片1",
+                        "content": "2",
+                        "time": 1494398996000,
+                        "dianzan_count": {
+                            "dianzan_count": 0,
+                            "touxiang_list": []
+                        }
+                    },
+                    {
+                        "pingluner_id": "2",
+                        "pingluner_name": "用户2",
+                        "pingluner_touxiang": "头像图片1",
+                        "content": "2",
+                        "time": 1494398996000,
+                        "dianzan_count": {
+                            "dianzan_count": 0,
+                            "touxiang_list": []
+                        }
+                    },
+                    {
+                        "pingluner_id": "2",
+                        "pingluner_name": "用户2",
+                        "pingluner_touxiang": "头像图片1",
+                        "content": "2",
+                        "time": 1494398996000,
+                        "dianzan_count": {
+                            "dianzan_count": 0,
+                            "touxiang_list": []
+                        }
+                    },
+                    {
+                        "pingluner_id": "2",
+                        "pingluner_name": "用户2",
+                        "pingluner_touxiang": "头像图片1",
+                        "content": "2",
+                        "time": 1494398996000,
+                        "dianzan_count": {
+                            "dianzan_count": 0,
+                            "touxiang_list": []
+                        }
+                    }
+                ],
+                "tuijian": [
+                    {
+                        "id": "1",
+                        "title": "新鲜事",
+                        "name": "Tom",
+                        "picture": [
+                            {
+                                "picture_url": "图片地址1"
+                            }
+                        ],
+                        "time": 1494576224000
+                    },
+                    {
+                        "id": "11",
+                        "title": "新鲜4",
+                        "name": "Wayne",
+                        "picture": [
+                            {
+                                "picture_url": "图片地址4"
+                            }
+                        ],
+                        "time": 1494576230000
+                    },
+                    {
+                        "id": "1",
+                        "title": "新鲜事",
+                        "name": "Tom",
+                        "picture": [
+                            {
+                                "picture_url": "图片地址1"
+                            }
+                        ],
+                        "time": 1494576224000
+                    }
+                ],
+                "guanggao_url": null,
+                "biaoqian": [
+                    {
+                        "biaoqian": "大人"
+                    },
+                    {
+                        "biaoqian": "小孩"
+                    }
+                ]
+            }
+        ]
+    }
+}

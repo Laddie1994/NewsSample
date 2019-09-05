@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="nav_news">新闻阅读</string>
+    <string name="nav_picture">图片浏览</string>
+    <string name="nav_video">视频爽看</string>
+    <string name="nav_game">游戏下载</string>
+    <string name="nav_musice">音乐清听</string>
+
+    <string name="loading">加载中</string>
+    <string name="loading_no_more">没有数据了</string>
+    <string name="error_view_no_data">加载失败</string>
+
+</resources>

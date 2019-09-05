@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Librarys/Librarys.iml" filepath="$PROJECT_DIR$/Librarys/Librarys.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MaterialDesignLibrary/MaterialDesignLibrary.iml" filepath="$PROJECT_DIR$/MaterialDesignLibrary/MaterialDesignLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NewsApp.iml" filepath="$PROJECT_DIR$/NewsApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commons/commons.iml" filepath="$PROJECT_DIR$/commons/commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/core.iml" filepath="$PROJECT_DIR$/core/core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/onkeysharelibrary/onkeysharelibrary.iml" filepath="$PROJECT_DIR$/onkeysharelibrary/onkeysharelibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shareSDKLib/shareSDKLib.iml" filepath="$PROJECT_DIR$/shareSDKLib/shareSDKLib.iml" />
+    </modules>
+  </component>
+</project>

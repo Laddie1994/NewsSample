@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="news_tabs">
+        <item>头条</item>
+        <item>房产</item>
+        <item>军事</item>
+        <item>科技</item>
+        <item>汽车</item>
+    </string-array>
+
+    <string-array name="image_tabs">
+        <item>美女</item>
+        <item>汽车</item>
+        <item>动漫</item>
+        <item>摄影</item>
+        <item>明星</item>
+    </string-array>
+
+    <string-array name="video_tabs">
+        <item>最热</item>
+        <item>最新</item>
+        <item>经典</item>
+    </string-array>
+
+    <string-array name="fonts_size">
+        <item>特大号字</item>
+        <item>大号字</item>
+        <item>中号字</item>
+        <item>小号字</item>
+    </string-array>
+
+    <string-array name="game_tabs">
+        <item>休闲</item>
+        <item>动作</item>
+        <item>角色</item>
+        <item>专题</item>
+    </string-array>
+
+</resources>

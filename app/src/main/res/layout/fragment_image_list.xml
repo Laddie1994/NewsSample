@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.myapplication.widget.MultiStateView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/app_msl"
+    app:msv_errorView="@layout/error_layout"
+    app:msv_loadingView="@layout/loading_layout"
+    app:msv_viewState="loading"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayout
+        android:id="@+id/image_swipe_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:direction="both">
+
+        <com.github.library.PinterestLikeAdapterView.MultiColumnListView
+            android:id="@+id/image_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="@null"
+            android:background="#00000000"
+            android:dividerHeight="5dp"
+            android:listSelector="#00000000"
+            android:overScrollMode="never"
+            app:plaColumnNumber="2">
+
+        </com.github.library.PinterestLikeAdapterView.MultiColumnListView>
+
+    </com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayout>
+
+</com.example.myapplication.widget.MultiStateView>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_card">
+
+    <com.gc.materialdesign.views.LayoutRipple
+        android:id="@+id/itemLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:rippleSpeed="60">
+
+        <!--<com.example.myapplication.widget.RatioLayout
+            android:id="@+id/icon_wrapper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            app:ratio="0.0">-->
+
+        <ImageView
+            android:id="@+id/topic_item_icon"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:scaleType="centerCrop"/>
+        <!--</com.example.myapplication.widget.RatioLayout>-->
+
+        <TextView
+            android:id="@+id/topic_item_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/topic_item_icon"
+            android:gravity="center_horizontal"
+            android:padding="8dp"
+            android:singleLine="true"
+            android:textColor="@color/alpha_95_black"
+            android:textSize="@dimen/text_size_17"/>
+    </com.gc.materialdesign.views.LayoutRipple>
+
+</FrameLayout>

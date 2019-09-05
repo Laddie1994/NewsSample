@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+    <com.example.myapplication.widget.HorizontalScrollViewPager
+        android:id="@+id/news_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+
+    <TextView
+        android:id="@+id/news_focus_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/news_view_pager"
+        android:layout_alignBottom="@id/news_view_pager"
+        android:textColor="#ffff4444"
+        android:paddingRight="10dp"
+        android:paddingBottom="6dp"
+        android:textSize="@dimen/text_size_16"/>
+
+</RelativeLayout>

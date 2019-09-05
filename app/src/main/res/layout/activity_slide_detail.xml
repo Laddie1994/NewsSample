@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.myapplication.widget.MultiStateView
+    android:id="@+id/app_msl"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    app:msv_emptyView="@layout/empty_layout"
+    app:msv_errorView="@layout/error_layout"
+    app:msv_loadingView="@layout/loading_layout"
+    app:msv_viewState="loading">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <include
+            android:id="@+id/toolbar_container"
+            layout="@layout/toolbar_layout"/>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/news_slide_view_pager"
+            android:layout_below="@+id/toolbar_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+        </android.support.v4.view.ViewPager>
+
+        <RelativeLayout
+            android:id="@+id/news_slide_desc_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/alpha_40_black"
+            android:padding="@dimen/space_15">
+
+            <TextView
+                android:id="@+id/news_slide_indicater"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:textColor="@color/alpha_95_white"
+                android:textSize="@dimen/text_size_18"/>
+
+            <com.example.myapplication.widget.MarqueeTextView
+                android:id="@+id/news_slide_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/space_8"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:focusableInTouchMode="true"
+                android:scrollHorizontally="true"
+                android:layout_toStartOf="@+id/news_slide_indicater"
+                android:singleLine="true"
+                android:textColor="@color/alpha_95_white"
+                android:textSize="@dimen/text_size_18"/>
+
+            <TextView
+                android:id="@+id/news_slide_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/news_slide_title"
+                android:textColor="@color/alpha_80_white"
+                android:textSize="@dimen/text_size_16"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</com.example.myapplication.widget.MultiStateView>

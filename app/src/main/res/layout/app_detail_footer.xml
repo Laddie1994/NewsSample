@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/app_detail_heander_layout"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="@dimen/space_21"
+        android:layout_marginLeft="@dimen/space_21">
+
+        <ImageView
+            android:id="@+id/app_detail_favor"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/btn_favor_selector"
+
+            android:visibility="gone"/>
+
+        <CheckBox
+            android:id="@+id/app_detail_state"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:button="@null"
+            android:background="@drawable/download_state_selecter"
+            android:visibility="gone"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/app_detail_footer_layout"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/space_21"
+        android:layout_marginRight="@dimen/space_21">
+
+        <ImageView
+            android:id="@+id/app_detail_share"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/btn_share_selector"
+
+            android:visibility="gone"/>
+        <ImageView
+            android:id="@+id/app_detail_del"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/download_delecte_selecter"
+            android:visibility="gone"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/app_detail_footer_layout"
+        android:layout_toRightOf="@id/app_detail_heander_layout">
+
+        <ProgressBar
+            android:id="@+id/app_detail_pb"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:progressDrawable="@drawable/progress_drawable"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/app_detail_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/alpha_65_black"
+            android:visibility="gone"
+            android:textSize="@dimen/text_size_18"/>
+
+        <Button
+            android:id="@+id/app_detail_download"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/ic_down_download"
+            android:gravity="center"
+            android:src="@drawable/btn_share_selector"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_18"/>
+
+    </FrameLayout>
+</RelativeLayout>

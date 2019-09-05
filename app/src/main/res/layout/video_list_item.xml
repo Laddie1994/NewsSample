@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_item_selector">
+    <!--android:descendantFocusability="blocksDescendants"
+    android:foreground="?android:attr/selectableItemBackground"-->
+    <!--app:cardCornerRadius="6dp"-->
+
+    <com.gc.materialdesign.views.LayoutRipple
+        android:id="@+id/itemLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:padding="@dimen/space_8"
+        app:rippleSpeed="60">
+
+        <ImageView
+            android:id="@+id/video_avatar"
+            android:layout_width="65dp"
+            android:layout_height="95dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/space_8"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/default_net_image"/>
+
+        <TextView
+            android:id="@+id/video_type"
+            android:layout_width="35dp"
+            android:layout_height="20dp"
+            android:layout_alignBottom="@id/video_avatar"
+            android:layout_alignRight="@id/video_avatar"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_11"/>
+
+        <Button
+            android:id="@+id/video_download"
+            android:layout_width="65dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/space_8"
+            android:background="@drawable/btn_download_selector"
+            android:text="下载"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/text_size_13"/>
+
+        <TextView
+            android:id="@+id/video_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@id/video_download"
+            android:layout_toRightOf="@id/video_avatar"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_16"/>
+
+        <TextView
+            android:id="@+id/video_shortdesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/video_download"
+            android:layout_toRightOf="@id/video_avatar"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="@dimen/text_size_14"/>
+
+        <TextView
+            android:id="@+id/video_system"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@id/video_download"
+            android:layout_toRightOf="@id/video_avatar"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="@dimen/text_size_14"/>
+
+    </com.gc.materialdesign.views.LayoutRipple>
+
+</FrameLayout>
